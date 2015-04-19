@@ -7,6 +7,7 @@
 //
 
 #import "MCAppDelegate.h"
+#import "MCLocationViewController.h"
 
 @interface MCAppDelegate ()
 
@@ -15,8 +16,27 @@
 @implementation MCAppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application
+        didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
+    
+    MCLocationViewController *lvc = [[MCLocationViewController alloc]
+                                    initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *masterNav = [[UINavigationController alloc]
+                                         initWithRootViewController:lvc];
+    
+    MCWebViewController *wvc = [[MCWebViewController alloc] init];
+    lvc.webViewController = wvc;
+    
+    self.window.rootViewController = masterNav;
+
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		954EBD0D1ADF367600389A91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBD0C1ADF367600389A91 /* main.m */; };
 		954EBD101ADF367600389A91 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBD0F1ADF367600389A91 /* MCAppDelegate.m */; };
-		954EBD131ADF367600389A91 /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBD121ADF367600389A91 /* MCViewController.m */; };
-		954EBD161ADF367600389A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954EBD141ADF367600389A91 /* Main.storyboard */; };
 		954EBD181ADF367600389A91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954EBD171ADF367600389A91 /* Images.xcassets */; };
-		954EBD1B1ADF367600389A91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954EBD191ADF367600389A91 /* LaunchScreen.xib */; };
 		954EBD271ADF367600389A91 /* LocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBD261ADF367600389A91 /* LocationsTests.m */; };
-		954EBD321ADF37DD00389A91 /* MCHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBD311ADF37DD00389A91 /* MCHomeModel.m */; };
-		954EBD351ADF37E900389A91 /* MCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBD341ADF37E900389A91 /* MCLocation.m */; };
-		95D16CFC1AE0E30C00D9EBAA /* MCAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D16CFB1AE0E30C00D9EBAA /* MCAddressViewController.m */; };
+		9565C40C1AE14D6700808906 /* MCLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9565C40B1AE14D6700808906 /* MCLocationViewController.m */; };
+		9565C40F1AE14EFC00808906 /* MCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9565C40E1AE14EFC00808906 /* MCWebViewController.m */; };
+		95EF68921AE199AB0071487D /* MCAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EF68911AE199AB0071487D /* MCAddressViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +32,16 @@
 		954EBD0C1ADF367600389A91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		954EBD0E1ADF367600389A91 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
 		954EBD0F1ADF367600389A91 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
-		954EBD111ADF367600389A91 /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
-		954EBD121ADF367600389A91 /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
-		954EBD151ADF367600389A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		954EBD171ADF367600389A91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		954EBD1A1ADF367600389A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		954EBD201ADF367600389A91 /* LocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		954EBD251ADF367600389A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		954EBD261ADF367600389A91 /* LocationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsTests.m; sourceTree = "<group>"; };
-		954EBD301ADF37DD00389A91 /* MCHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHomeModel.h; sourceTree = "<group>"; };
-		954EBD311ADF37DD00389A91 /* MCHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHomeModel.m; sourceTree = "<group>"; };
-		954EBD331ADF37E900389A91 /* MCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLocation.h; sourceTree = "<group>"; };
-		954EBD341ADF37E900389A91 /* MCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLocation.m; sourceTree = "<group>"; };
-		95D16CFA1AE0E30C00D9EBAA /* MCAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddressViewController.h; sourceTree = "<group>"; };
-		95D16CFB1AE0E30C00D9EBAA /* MCAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAddressViewController.m; sourceTree = "<group>"; };
+		9565C40A1AE14D6700808906 /* MCLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLocationViewController.h; sourceTree = "<group>"; };
+		9565C40B1AE14D6700808906 /* MCLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLocationViewController.m; sourceTree = "<group>"; };
+		9565C40D1AE14EFC00808906 /* MCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWebViewController.h; sourceTree = "<group>"; };
+		9565C40E1AE14EFC00808906 /* MCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWebViewController.m; sourceTree = "<group>"; };
+		95EF68901AE199AB0071487D /* MCAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddressViewController.h; sourceTree = "<group>"; };
+		95EF68911AE199AB0071487D /* MCAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAddressViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +85,12 @@
 			children = (
 				954EBD0E1ADF367600389A91 /* MCAppDelegate.h */,
 				954EBD0F1ADF367600389A91 /* MCAppDelegate.m */,
-				954EBD111ADF367600389A91 /* MCViewController.h */,
-				954EBD121ADF367600389A91 /* MCViewController.m */,
-				95D16CFA1AE0E30C00D9EBAA /* MCAddressViewController.h */,
-				95D16CFB1AE0E30C00D9EBAA /* MCAddressViewController.m */,
-				954EBD301ADF37DD00389A91 /* MCHomeModel.h */,
-				954EBD311ADF37DD00389A91 /* MCHomeModel.m */,
-				954EBD331ADF37E900389A91 /* MCLocation.h */,
-				954EBD341ADF37E900389A91 /* MCLocation.m */,
-				954EBD141ADF367600389A91 /* Main.storyboard */,
-				954EBD191ADF367600389A91 /* LaunchScreen.xib */,
+				9565C40A1AE14D6700808906 /* MCLocationViewController.h */,
+				9565C40B1AE14D6700808906 /* MCLocationViewController.m */,
+				9565C40D1AE14EFC00808906 /* MCWebViewController.h */,
+				9565C40E1AE14EFC00808906 /* MCWebViewController.m */,
+				95EF68901AE199AB0071487D /* MCAddressViewController.h */,
+				95EF68911AE199AB0071487D /* MCAddressViewController.m */,
 				954EBD0A1ADF367600389A91 /* Supporting Files */,
 			);
 			path = Locations;
@@ -214,8 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954EBD161ADF367600389A91 /* Main.storyboard in Resources */,
-				954EBD1B1ADF367600389A91 /* LaunchScreen.xib in Resources */,
 				954EBD181ADF367600389A91 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,11 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954EBD131ADF367600389A91 /* MCViewController.m in Sources */,
-				954EBD351ADF37E900389A91 /* MCLocation.m in Sources */,
+				95EF68921AE199AB0071487D /* MCAddressViewController.m in Sources */,
+				9565C40C1AE14D6700808906 /* MCLocationViewController.m in Sources */,
+				9565C40F1AE14EFC00808906 /* MCWebViewController.m in Sources */,
 				954EBD101ADF367600389A91 /* MCAppDelegate.m in Sources */,
-				95D16CFC1AE0E30C00D9EBAA /* MCAddressViewController.m in Sources */,
-				954EBD321ADF37DD00389A91 /* MCHomeModel.m in Sources */,
 				954EBD0D1ADF367600389A91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,25 +246,6 @@
 			targetProxy = 954EBD211ADF367600389A91 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		954EBD141ADF367600389A91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				954EBD151ADF367600389A91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		954EBD191ADF367600389A91 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				954EBD1A1ADF367600389A91 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		954EBD281ADF367600389A91 /* Debug */ = {

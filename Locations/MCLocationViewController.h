@@ -1,5 +1,5 @@
 //
-//  MCAddressViewController.h
+//  MCLocationViewController.h
 //  Locations
 //
 //  Created by Matthew Chupp on 4/17/15.
@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "MCWebViewController.h"
 
-@interface MCAddressViewController : UIViewController
+@interface MCLocationViewController : UITableViewController
 
-//@property (nonatomic, strong) IBOutlet UILabel *address;
+@property (nonatomic) MCWebViewController *webViewController;
 
 @end
